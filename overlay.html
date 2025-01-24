@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap Overlay</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            position: relative;
+            box-sizing: border-box; /* Ensure padding and border are included in element's total width and height */
+        }
+        .overlay-image {
+            position: absolute;
+            top: 60%; /* Position it just below the contents of Liverpool */
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0.3; /* Make the image fainter */
+            width: 300px; /* Increase the size of the image */
+            height: auto;
+        }
+        .heading-blue {
+            color: blue; /* Change the color of the heading to blue */
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay-container">
+        <img src="static/images/logo%20premi.png" class="overlay-image" alt="Overlay Image">
+    </div>
+
+    <div class="container p-5 text-center text-bg-primary">
+        <h1 class="heading-blue">premier league</h1>
+    </div>
+    <div class="container text-center border-2 font-monospace text-black fst-italic">
+        <div class="row">
+            <div class="col-4">
+                <img src="static/images/mancity%201.png">
+                <h2>manchester city</h2>
+                <p>Manchester City Football Club, based in Manchester, England, was founded in 1880. They play their home games at the Etihad Stadium and are known for their sky blue and white colors. Under manager Pep Guardiola, Man City has secured multiple Premier League titles and other domestic trophies, becoming a dominant force in English football.</p>
+            </div>
+            <div class="col-4">
+                <img src="static/images/liverpool2.jpeg">
+                <h2>liverpool</h2>
+                <p>Liverpool Football Club, founded in 1892 and based in Liverpool, England, competes in the Premier League. They play home games at Anfield, which seats over 61,000 fans. Known for their all-red kits and the anthem "You'll Never Walk Alone," Liverpool has a rich history of domestic and international success.</p>
+            </div>
+            <div class="col-4">
+                <img src="static/images/cheales3.png">
+                <h2>chelsea</h2>
+                <p>Chelsea Football Club, based in Fulham, London, was founded in 1905. They compete in the Premier League and play their home games at Stamford Bridge, which has a capacity of over 40,000. Chelsea is known for their blue kits and has enjoyed significant
